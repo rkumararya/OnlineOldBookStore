@@ -4,11 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Online Old Book Store!</title>
+<title>Online Old Book Store</title>
 </head>
 <body>
 	
-	<!-- <a href="./hello">Say Hello</a> -->
 	<a href="hello.html">Say Hello</a>
 </body>
 </html>
