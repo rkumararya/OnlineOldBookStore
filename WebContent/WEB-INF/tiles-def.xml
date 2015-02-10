@@ -10,17 +10,17 @@
         <put-attribute name="body" value="" />
         <put-attribute name="footer" value="/WEB-INF/jsp/template/Footer.jsp" />
     </definition>
-
-    <definition name="hello" extends="base.definition">
+    
+    <definition name="home" extends="base.definition">
         <!-- <put-attribute name="title"
             value="Being Java Guys | Tiles Integration" /> -->
-        <put-attribute name="body" value="/WEB-INF/jsp/hello.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/HomePage.jsp" />
     </definition>
     
      <definition name="enggHome" extends="base.definition">
         <!-- <put-attribute name="title"
             value="Being Java Guys | Tiles Integration" /> -->
-        <put-attribute name="body" value="/WEB-INF/jsp/enggHome.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/Engineering/enggHome.jsp" />
     </definition>
 
 </tiles-definitions>
