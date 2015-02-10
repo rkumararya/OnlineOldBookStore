@@ -19,11 +19,17 @@
          <tr>
             <td height="" width=""><tiles:insertAttribute name="menu" />
             </td>
-        </tr>
-        <tr>
             
-            <td width="600"><tiles:insertAttribute name="body" />
+        </tr>
+        <tr><td height="" width=""><tiles:insertAttribute name="search" />
             </td>
+         </tr>
+        <tr>
+        	<td style="float:left;padding:10px;width:15%;" height="100"><tiles:insertAttribute name="filter" />
+            </td>
+            <td style="float:left;padding:10px;width:80.6%;"><tiles:insertAttribute name="body" />
+            </td>
+            
         </tr>
         <tr>
             <td height="30" colspan="2"><tiles:insertAttribute name="footer" />
