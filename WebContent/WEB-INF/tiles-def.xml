@@ -8,7 +8,6 @@
         <put-attribute name="header" value="/WEB-INF/jsp/template/Header.jsp" />
         <put-attribute name="menu" value="/WEB-INF/jsp/template/Menu.jsp" />
         <put-attribute name="search" value="/WEB-INF/jsp/template/Search.jsp" />
-        <put-attribute name="filter" value="/WEB-INF/jsp/template/Filter.jsp" />
         <put-attribute name="body" value="" />
         <put-attribute name="footer" value="/WEB-INF/jsp/template/Footer.jsp" />
     </definition>

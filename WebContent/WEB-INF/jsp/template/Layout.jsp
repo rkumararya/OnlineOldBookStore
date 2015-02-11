@@ -25,11 +25,8 @@
             </td>
          </tr>
         <tr>
-        	<td style="float:left;padding:10px;width:15%;" height="100"><tiles:insertAttribute name="filter" />
+        	<td height="" width=""><tiles:insertAttribute name="body" />
             </td>
-            <td style="float:left;padding:10px;width:80.6%;"><tiles:insertAttribute name="body" />
-            </td>
-            
         </tr>
         <tr>
             <td height="30" colspan="2"><tiles:insertAttribute name="footer" />
