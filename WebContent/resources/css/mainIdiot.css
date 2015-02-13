@@ -52,7 +52,7 @@ a img {
 	box-shadow: 0 0 10px 0 #6c6565;
 	margin: 0 auto 0px;
 	padding: 0 0 0px;
-	width: 1003px;
+	width: auto;
 }
 .layoutInner_Registration {
 	background-color: #22543f;
@@ -498,7 +498,7 @@ li.separator{
 }
 
 .topBand {
-	width:1003px;
+	width:auto;
 	height: 20px;
 	background-color: #000000;
 	font-family: Verdana, Arial, Helvetica, sans-serif;

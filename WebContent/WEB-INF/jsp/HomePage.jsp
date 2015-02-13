@@ -1,44 +1,65 @@
-	<table alignment="center" width="100%" >
-		<tr>
+<table >
+	<tbody>
+		<tr height="100%">
+		<td width="50%" height="50%">
+		<form id="Filter" method="post">
+			<div>
+				<ul class="menuTemplate3 decor3_1" >
+					
+					<li>
+						
+						<a href="#Horizontal-Menus" class="arrow">FILTER BOOKS BY</a>
+					</li>
+					
+				</ul>
+				<ul>
+					<li>
+						
+						<a href="#Horizontal-Menus" class="arrow">OFFERS</a>	
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<input class= "#Horizontal-Menus" type="radio">Get 20% off, Use Code: <br> STYLE28
+						<!-- <a href="#Horizontal-Menus" class="arrow">FILTER BOOKS BY</a> -->	
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#Horizontal-Menus" class="arrow">FILTER BOOKS BY</a>	
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#Horizontal-Menus" class="arrow">FILTER BOOKS BY</a>	
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#Horizontal-Menus" class="arrow">FILTER BOOKS BY</a>	
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#Horizontal-Menus" class="arrow">FILTER BOOKS BY</a>	
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#Horizontal-Menus" class="arrow">FILTER BOOKS BY</a>	
+					</li>
+				</ul>			
+			</div>
+			
+		</form>
+		</td>
+		<td width="50%">
+			<form id="Filter" method="post">
+			Hello
 		
-		</tr>
-		<tr>
-			<td width="12%"> <font style="font-family: sans-serif;">
-			Category </font></td>
-			<td width="12%">
-				<select name="cate" onchange="">
-	    			<option style="font-family: sans-serif;" value="0">-Category-</option> 
-	    								<% // for(int i=0;i<emptyp_cd.length;i++) %>
-	    								<option style="font-family: sans-serif;" value="0" > Option 1</option>
-	    								<option style="font-family: sans-serif;" value="1" > Option 2</option>
-	    								<% // } %>
-	    		</select>	
-			</td>
-			<td width="12%"> Type </td>
-			<td width="12%"> 
-				<select name="typ" onchange="">
-	    			<option style="font-family: sans-serif;" value="0">-Type-</option> 
-	    								<% // for(int i=0;i<emptyp_cd.length;i++) %>
-	    			<option style="font-family: sans-serif;" value="0" > Type 1 </option>
-	    			<option style="font-family: sans-serif;" value="2" > Type 2 </option>
-	    								<% // } %>
-	    		</select>
-	    	</td>
-	    	<td width="12%">Name</td>
-			<td width="12%"> <input type="text" name="" value="">
-			<td width="12%">Author</td>
-			<td width="12%"> <input type="text" name="" value="">  </td>
-		</tr>
-		<tr>
-			<td>	
-				<input type="button" name="search" value="Search">
-			</td>
-			<td> 
-				<input type="button" name="reset" value="Reset">
-			</td>
-		</tr>
-		<tr>
-		</tr>
-		
-	</table>
-
+		</form>
+		</td>
+	</tr>
+	</tbody>
+	
+</table>

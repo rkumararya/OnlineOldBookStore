@@ -7,29 +7,30 @@
 
 <link rel="stylesheet" href="resources/css/mainIdiot.css" type="text/css"></link>
 <link rel="stylesheet" href="resources/css/menuTemplate3.css" type="text/css"></link>
+
 <title><tiles:insertAttribute name="title" ignore="true" />
 </title>
 </head>
 <body>
-    <table border="1" cellspacing="2" align="center">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
-            <td height="" colspan=""><tiles:insertAttribute name="header" />
+            <td width="100%"><tiles:insertAttribute name="header" />
             </td>
          </tr>   
          <tr>
-            <td height="" width=""><tiles:insertAttribute name="menu" />
+            <td width="100%"><tiles:insertAttribute name="menu" />
             </td>
             
         </tr>
-        <tr><td height="" width=""><tiles:insertAttribute name="search" />
+        <tr><td width="100%"><tiles:insertAttribute name="search" />
             </td>
          </tr>
         <tr>
-        	<td height="" width=""><tiles:insertAttribute name="body" />
+        	<td width="100%"><tiles:insertAttribute name="body" />
             </td>
         </tr>
         <tr>
-            <td height="30" colspan="2"><tiles:insertAttribute name="footer" />
+            <td width="100%"><tiles:insertAttribute name="footer" />
             </td>
         </tr>
     </table>
