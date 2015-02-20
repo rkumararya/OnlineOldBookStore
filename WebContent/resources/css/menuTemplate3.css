@@ -164,6 +164,23 @@
     box-shadow: 1px 2px 4px 2px #999;
 }
 
+/* Css for FIlter form  */
+#Filter {
+ width: 100%;
+ background: #fff;
+}
+
+#Filter > div {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #000;
+    width: 100%;
+}
+#Filter > div ul {
+    list-style: outside none none;
+    padding: 0 0 0 10px;
+}
+
+
 /*for submenu.*/   
 .decor3_2 
 {
@@ -271,4 +288,35 @@ fieldset{
 #Filter{
 	/* The search form. */
 	background-color:#4C5A65;	
+}
+
+.decor4_1 
+{
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+
+    -moz-box-shadow: 1px 2px 4px 2px #999;
+    -webkit-box-shadow: 1px 2px 4px 2px #999;
+    box-shadow: 1px 2px 4px 2px #999;
+}
+
+.menuTemplate4
+{
+    behavior: url("/horizontal/menuh/cssmenu.htc"); 
+    position:relative;
+    z-index:4;
+    width:auto;
+    height: 36px;
+    background: #444;
+    border: 1px solid #111;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    padding: 0;
+}
+
+.filterSeparator
+{
+  border: 0;
+border-bottom: 3px dashed #ccc; background: #999; 
 }
